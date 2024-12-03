@@ -14,7 +14,7 @@ class Greeting:
     def print_greeting(self):
         for char in self.message:
             self.print_char(char)
-        print()  # Newline after the greeting
+        print()
 
     def repeat_message(self, count):
         for _ in range(count):
@@ -22,7 +22,7 @@ class Greeting:
 
 def main():
     greeting_instance = Greeting()
-    greeting_instance.repeat_message(1)  # Repeating just once for now (but can repeat more)
+    greeting_instance.repeat_message(1) 
 
 if __name__ == "__main__":
     main()
